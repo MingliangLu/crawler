@@ -11,6 +11,7 @@ import scrapy
 class DwjtItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    tilte = scrapy.Field()
-    video = scrapy.Field()
-    music_score = scrapy.Field()
+    address = scrapy.Field()
+    title = scrapy.Field()
+    # video = scrapy.Field()
+    # music_score = scrapy.Field()
